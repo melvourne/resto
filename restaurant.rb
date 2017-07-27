@@ -135,7 +135,7 @@ def food_menu
 end
 
 
-def order_items
+def order_food
 
   MENU_ITEMS.each_with_index do |menu_item, index|
     user_index = index + 1
@@ -198,7 +198,7 @@ def main_menu(order)
           food_menu
         when '2'
           system 'clear'
-          order_items
+          order_food
         when '3'
           system 'clear'
           ask_bill(order)
