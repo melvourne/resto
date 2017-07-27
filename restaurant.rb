@@ -179,17 +179,6 @@ def ask_bill(order)
   puts order.bill
 end
 
-class Entrees < MenuItem
-end
-
-class Mains < MenuItem
-end
-
-class Desserts < MenuItem
-end
-
-class Drinks < MenuItem
-end
 
 
 def main_menu(order)
